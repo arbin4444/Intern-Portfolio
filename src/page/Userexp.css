@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.user-exp{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #412234;
+}
+.exp-div{
+    display: flex;
+    /* justify-content: center; */
+    /* background-color: #412234; */
+}
+.exp-content{
+    background-color: rgb(159, 195, 200);
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    /* margin:40px 0 10px 0; */
+    padding: 10px;
+    border-style: hidden;
+    border-radius: 12px;
+     
+}
+.exp-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin:12px 0 0 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.exp-head{
+    list-style: none;
+    font-size: 23px; 
+    margin:5px 0 0 0; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+} 
+.exp-head-content{
+    font-size: 18px;
+    margin:10px 0 0 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list-content{
+    font-size: 20px;
+    margin:20px 0 10px 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 0 0 0 580px;
+}
+.logo1{
+    height: 50px;
+    width: 50px;
+    margin: 0 0 0 540px;
+}
+@media screen and (max-width:1025px) {
+    .user-exp{
+        
+        height: 68vh;
+        
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    .exp-content{
+        
+        width: 680px;
+       
+         
+    }
+    .logo{
+       
+        margin: 0 0 0 450px;
+    }
+    .logo1{
+        
+        margin: 0 0 0 410px;
+    }
+}
+@media screen and (max-width:768px) {
+    .user-exp{
+     
+        height: 76vh;
+        
+    }
+    .exp-content{
+        
+        width: 420px;
+       
+         
+    }
+    .logo{
+       
+        margin: 0 0 0 200px;
+    }
+    .logo1{
+        
+        margin: 0 0 0 160px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .user-exp{
+      
+        height: 80vh;
+        
+    }
+    .exp-content{
+        
+        width: 280px;
+       
+         
+    }
+    .logo{
+        height: 35px;
+        width: 30px;
+        margin: 0 0 0 80px;
+    }
+    .logo1{
+        height: 35px;
+        width: 30px;
+        margin: 0 0 0 40px;
+    }
+}
+/* @media screen and (max-width:1367px) {
+    .user-exp{
+        
+        height: 48vh;
+        
+    }
+}
+@media screen and (max-width:1025px) {
+    .user-exp{
+        
+        height: 35vh;
+        
+    }
+}
+ @media screen and (max-width:881px) {
+    .exp-content{
+        width:600px;
+        
+    }
+    .logo{
+        
+        margin: 0 0 0 350px;
+    }
+    .logo1{
+       
+        margin: 0 0 0 320px;
+    }
+    .user-exp{
+        height: 70vh;
+        display: flex;
+        
+    }
+    
+    
+} 
+@media screen and (max-width:825px) {
+    .user-exp{
+       
+        height: 76vh;
+        
+    }
+}
+@media screen and (max-width:821px) {
+    .user-exp{
+       
+        height: 42vh;
+        
+    }
+}
+@media screen and (max-width:769px) {
+    .user-exp{
+        
+        height: 48vh;
+        
+    }
+}
+@media screen and (max-width:679px) {
+    
+    .exp-content{
+        width:500px;
+        
+    }
+    .logo{
+        
+        margin: 0 0 0 250px;
+    }
+    .logo1{
+       
+        margin: 0 0 0 210px;
+    }
+}
+@media screen and (max-width:618px) {
+    .user-exp{
+       
+        height: 72vh;
+        
+    }
+}
+
+@media screen and (max-width:580px) {
+    .exp-content{
+        width:455px;       
+    }
+    
+}
+@media screen and (max-width:529px) {
+    .exp-content{
+        width:405px;       
+    }
+    .logo{
+        
+        margin: 0 0 0 180px;
+    }
+    .logo1{
+       
+        margin: 0 0 0 145px;
+    }
+    
+}
+@media screen and (max-width:431px) {
+    .exp-content{
+        width:374px;       
+    }
+    .logo{
+        
+        margin: 0 0 0 140px;
+    }
+    .logo1{
+       
+        margin: 0 0 0 100px;
+    }
+    .user-exp{
+        
+        height: 50vh;
+        
+    }
+    
+}
+@media screen and (max-width:415px) {
+    .user-exp{
+        
+        height: 52vh;
+        
+    }
+}
+@media screen and (max-width:391px) {
+    .exp-content{
+        width:322px;       
+    }
+    .logo{
+        
+        margin: 0 0 0 95px;
+    }
+    .logo1{
+       
+        margin: 0 0 0 55px;
+    }
+    .user-exp{
+        
+        height: 59vh;
+        
+    }
+    
+}
+@media screen and (max-width:376px) {
+    .user-exp{
+        
+        height: 74vh;
+        
+    }
+} */
