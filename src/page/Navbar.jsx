@@ -9,7 +9,7 @@ export const Navbar = () => {
         {path: '#about', title:'About'},
         {path: '#exp', title: 'Experience'},
         {path: '#project', title:'Project'},
-        {path: '#contact', title: 'Contact'},
+        // {path: '#contact', title: 'Contact'},
         
     ];
 

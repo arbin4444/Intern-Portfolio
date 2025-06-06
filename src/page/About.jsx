@@ -14,8 +14,8 @@ export const About=()=>{
                     <div className="info-txt">Current Address: Basundhara-5, kathmandu</div>
                     
                     <div className="info-txt">Permanent Address: Odraha-7, Saptari </div>
-                    <div className="info-txt">Email Address: arbinchaudhary789@gmail.com</div>
-                    <div className="info-txt">Contact No. : 73984664912 </div>
+                    <div className="info-txt">Email Address: arbin.choudhary789@gmail.com</div>
+                    <div className="info-txt">Contact No. : 9842574444 </div>
                     
                     </div>
 
