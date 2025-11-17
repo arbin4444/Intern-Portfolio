@@ -7,7 +7,7 @@ import schoollogo from './school.jpg';
 export const Userexp=()=>{
     const header=[{head:"News Producer", description:"I have worked in Image Channel Company as News Producer. I used to handle the news part which were to be aired live in Image Channel.", pic:<img className="logo" src={imagelogo} alt="logo"/>},
         {head:"Computer Teacher", description:"I have also worked as a teacher for school level. My main subject was Computer Science and other than that i used to teach Math and Moral subject.", pic:<img className="logo1" src={schoollogo} alt="logo"/>},
-        {head:"Frontend Developer", description:"I am working as an intern in React Frontend Development. Learning and implementing ideas and skills to develop various React projects."},
+        {head:"Frontend Developer", description:"I have been working as an intern in React Frontend Development sector for about 1 year. Learning and implementing ideas and skills to develop various React projects. Recently got chance to dive into company's project called HomeTown as frontend developer"},
     ];
     return(
         <div>
